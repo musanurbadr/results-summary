@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,200;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700&family=Hanken+Grotesk:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@300;600;700&family=Poppins:ital,wght@1,100&family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root{
+--red: hsl(0, 100%, 67%, 0.10);
+
+--Orangey : hsl(39, 100%, 56%,0.10);
+--Green : hsl(166, 100%, 37%, 0.10);
+--Cobalt: hsl(234, 85%, 45%, 0.10);
+--Lighta : hsl(252, 88%, 64%);
+--Light : hsl(241, 81%, 54%);
+--Violet: hsla(256, 72%, 46%,);
+--Persian: hsla(241, 72%, 46%, );
+--White: hsl(0, 0%, 100%);
+--Pale : hsl(221, 100%, 96%);
+--Lighte: hsl(241, 100%, 89%);
+--Dark: hsl(224, 30%, 27%);
+
+
+}
+body{
+font-size: 18px;
+text-rendering: optimizeSpeed;
+margin-top: 10%;
+
+}
+
+.contener{
+    box-shadow:0px 7px 25px 0px var(--Lighte);
+    margin: -20px  25% 0% 25%;
+    border-radius: 2 solid  var(--red);
+    justify-content: center;
+    border-radius: 30px ;
+    background-color: var(--White); 
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.card-1{
+    width: 322px;
+    background: linear-gradient(to bottom, var(--Lighta ) ,var(--Light) ); /* sol kırmızı, sağ sarı */
+    padding: 25px;
+    border-radius: 30px ;
+    text-align: center;
+}
+.baclik{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: var(--Lighte);
+    padding: 10px;
+}
+
+#circle{
+    width: 166px;
+    height: 164px;
+    opacity: 8.5 var(--Persian); /* saydamlık oranı (0 ile 1 arasında) */
+    background: linear-gradient(to bottom, var(--Violet ) ,var(--Persian) ); /* sol kırmızı, sağ sarı */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 80px;
+    margin:9px 56px 60px;
+    padding: 20px 43px;
+}
+p#circle {
+    font-family: 'Outfit', sans-serif;
+    font-size: 60px;
+    font-weight:600;
+    text-align: center;
+    color: var(--White);
+}
+.pa{
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    margin:-38%  42% 32%;
+    color: var(--Lighte) ;
+}
+h4{
+    color: var(--White);
+    font-weight: 500;
+    margin: 30px 11px 25pX;
+    font-size: 23px;
+    font-family: 'Outfit ' , sans-serif;
+}
+.paragraph{
+    word-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: var(--White);
+    font-weight: 400;
+    padding: 0px 26px;
+}
+.card-2{
+    border-radius: 23px 12px 12px;
+    width: 322px;
+    margin: 32px;
+    
+}
+
+.pa2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 23px;
+    padding: 1px 6px 20px;
+}
+
+span {
+    margin:-6px 7px 16px 33px;
+    color: black;
+}
+b{
+    color:rgb(153, 152, 152);
+    font-family: sans-serif;
+}
+img {
+    margin: 12px 15px -12px 18px;
+}
+
+.conclusion-1{
+    width: 278px;
+    height: 55px;
+    background-color:var(--red);
+    color: hsl(0, 100%, 67%);
+    border-radius: 8px;
+    margin: 8px 0px 15px;
+}
+
+.conclusion-1 p{
+    font-family: system-ui;
+    font-weight: 400; 
+    font-size: 17px;
+    margin: -10px 3px -10px 49px;
+}
+.conclusion-1 span {
+    margin: 8px -2px 23px 78px;
+}
+.conclusion-2{
+    width: 278px;
+    height: 55px;
+    background-color: var(--Orangey);
+    color: hsl(39, 100%, 56%);
+    border-radius: 8px;
+    margin: 8px 0px 15px;
+
+}
+.immg {
+    margin: -4px 8px 3px 6px;
+}
+.conclusion-2 p{
+    font-family: system-ui;
+    font-weight: 400; 
+    font-size: 17px;
+    margin:-12px 4px -11px 48px;
+}
+.conclusion-2 span {
+    margin: 8px -2px 23px 84px;
+}
+.conclusion-3{
+    width: 278px;
+    height: 55px;
+    background-color:var(--Green);
+    color:hsl(166, 100%, 37%);
+    border-radius: 8px;
+    margin: 8px 0px 15px;
+    padding: 18px 12px 6px ;
+}
+.conclusion-3 p{
+    font-family: system-ui;
+    font-weight: 400; 
+    font-size: 17px;
+    margin: -27px -11px 5px 39px;
+}
+.conclusion-3 span {
+    margin: 15px 6px 21px 98px;
+}
+.conclusion-4{
+    width: 278px;
+    height: 55px;
+    background-color: var(--Cobalt) ;
+    color: hsl(234, 85%, 45%);
+    border-radius: 8px;
+    margin: 8px 0px 15px;
+    padding: 18px 12px 6px ;
+}
+.conclusion-4 p{
+    font-family: system-ui;
+    font-weight: 400; 
+    font-size: 17px;
+    margin:-27px -9px 2px 37px;
+    
+}
+.conclusion-4 span {
+    margin: 13px 8px 35px 102px
+}
+img.inng {
+    margin: -3px 6px 2px;
+}
+
+button{
+    font-size: 17px;
+    width: 290px;
+    height: 50px;
+    background-color: hsl(234, 53%, 11%);
+    border-radius: 30px;
+    color: var(--White);
+    border: none;
+    text-align: center;
+    margin:18px 0px -7px -6px;
+
+}
+button:hover {
+    background-color:rgb(22, 16, 155);
+
+  }
+
+  @media only screen and (max-width: 375px){
+    .contener{
+        display: contents;
+    }
+    .card-1{
+    width: 100%;
+    margin: auto;
+    border-radius: 0;
+    margin-top: -39px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px ;
+    }
+
+.baclik{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: var(--Lighte);
+    padding: 10px;
+}
+
+#circle{
+    width: 140px;
+    height: 140px;
+    margin:3px 94px 54px;
+    padding: 20px 43px;
+}
+p#circle {
+    font-family: 'Outfit', sans-serif;
+    font-size: 60px;
+    font-weight:600;
+    padding:22px 37px;
+    color: var(--White);
+}
+.pa{
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    margin:-29%  33% 22%;
+    color: var(--Lighte) ;
+}
+h4{
+    color: var(--White);
+    font-weight: 400;
+    margin: -22px 35px 11px;
+    font-size: 23px;
+    font-family: 'Outfit ' , sans-serif;
+}
+.paragraph{
+    font-weight: 300;
+    padding: 0px 26px;
+}
+button:hover {
+    background-color:rgb(22, 16, 155);
+
+  }
+  .card-2 {
+    margin: 29px 44px;
+  }
+  h3.pa2 {
+    font-weight: 500;
+}
+}
